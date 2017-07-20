@@ -1,8 +1,10 @@
+require_relative "models/apartment"
+require_relative "models/tenant"
 require_relative "data"
 apartments = data[:apartments]
 tenants = data[:tenants]
 
-# First, Open the data.rb an inspect the data. Identify and write, in comments, the following:
+# First, Open the data.rb and inspect the data. Identify and write, in comments, the following:
   # Explain how the data is structured
   # What are the properties for each of the two types of hashes
 
